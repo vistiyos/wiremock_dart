@@ -1,0 +1,15 @@
+name: wiremock_dart
+description: Mock server inspired on Wiremock
+version: 0.0.1
+author: Victor Escobar <victorescobargonza@gmail.com>
+homepage: https://github.com/vistiyos/wiremock_dart
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  mock_web_server: ^4.1.1
+
+dev_dependencies:
+  test: '>=1.5.1 <3.0.0'
+  http: ^0.12.0+2
